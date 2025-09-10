@@ -49,7 +49,6 @@ function login(e) {
         msg.innerHTML = `<p class="text-danger">Password is required.</p>`;
         return;
     }
-
     if (!usersList || usersList.length === 0) {
         msg.innerHTML = `<p class="text-danger">No users found. Please sign up first.</p>`;
         return;
@@ -80,7 +79,6 @@ function addUserInfo(e) {
     var nameVal = signupNameInput.value.trim();
     var emailVal = signupEmailInput.value.trim();
     var passVal = signupPasswordInput.value;
-
     var msg = document.getElementById("exist");
     msg.innerHTML = ""; 
 
