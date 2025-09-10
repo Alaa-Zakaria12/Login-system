@@ -33,13 +33,13 @@ input::placeholder,
 textarea::placeholder {
     color: rgb(182, 182, 182) !important;
 }
-.btn-primary {
+.btn{
     color: #17a2b8;
     background-color: transparent;
     background-image: none;
     border-color: #17a2b8;
 }
-.btn-primary:hover {
+.btn:hover {
     color: #fff;
     background-color: #17a2b8;
     border-color: #17a2b8;
